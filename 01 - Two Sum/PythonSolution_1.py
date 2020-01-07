@@ -3,7 +3,7 @@ class Solution:
         dict_obj = {}
 
         for i in range(len(nums)):
-            remainder = target - nums[i];
+            remainder = target - nums[i]
             if remainder in dict_obj:
                 return [dict_obj[remainder], i]
 

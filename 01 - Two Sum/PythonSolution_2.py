@@ -3,7 +3,7 @@ class Solution:
         dict_obj = {}
 
         for i, num in enumerate(nums):
-            remainder = target - num;
+            remainder = target - num
             if remainder in dict_obj:
                 return [dict_obj[remainder], i]
 
