@@ -18,7 +18,7 @@ class Solution {
         }
 
         for (Map.Entry<Integer,Integer> element  : map.entrySet()){
-            if (element.getValue() >= max_value){
+            if (element.getValue() >= max_value && element.getValue() >= majority_element){
                 max_value = element.getValue();
                 max_key = element.getKey();
             }
