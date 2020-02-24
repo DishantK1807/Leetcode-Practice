@@ -17,5 +17,4 @@ class Solution:
 
                 mapping[s[i]] = t[i]
 
-
         return True
